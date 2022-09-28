@@ -1,4 +1,5 @@
 body{background-color:pink;
+        background-image: src="Let food be thy medicine.jpg" ;
         font-family: 'Times New Roman', Times, serif;
         font-size: small;
         margin:0px}
@@ -55,60 +56,67 @@ body{background-color:pink;
     
         /*=============HEADINGS SECTION=============*/
     
-    h1{font-family:'Arial Narrow Bold', sans-serif;
-        color: black;
-        text-shadow:3px 3px 3px orange;}
-    h2{font-family:'Arial Narrow Bold', sans-serif;
-        color: black;
-        text-align:center;
-        border:dashed black;}
-    h3{font-size:230%;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-        margin: 0px;
-        transform:translatey(15%);
-        -webkit-transform:translatey(15%);
-        -ms-transform:translatey(15%);}
-    p{font-size: 125%;}
+h1{font-family:'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-shadow:3px 3px 3px orange;}
+h2{font-family:'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align:center;
+    border:dashed black;}
+h3{font-size:230%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+    transform:translatey(15%);
+    -webkit-transform:translatey(15%);
+    -ms-transform:translatey(15%);}
+p{font-size: 125%;}
         /*=============BUTTONS SECTION=============*/
-    #nav ul{background-color: gray;
-        margin: 10px;
-        border-radius: 4px;
-        list-style: none;
-        text-align: center;
-        padding: 5px;}
-    #nav ul li{display: inline;}
-    #nav ul li a{background-color: gray;
-        text-decoration: none;
-        color:aqua;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        padding: 2px 3em;}
-    #nav ul li a:hover{background-color:blanchedalmond;
-        color: black;
-        opacity: 0.8;}
-    #footer ul{
-        margin: 10px;
-        border-radius: 4px;
-        list-style: none;
-        text-align: center;
-        padding: 5px;}
-    #footer ul li{display: inline;}
-    #footer ul li a{background-color: gray;
-        text-decoration: none;
-        color:black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 90%;
-        font-weight: bold;
-        padding: 2px 2em;}
-    #footer ul li a:hover{background-color:pink;
-        color: black;
-        opacity: 1;}  
+ #nav ul{background-color: gray;
+     margin: 10px;
+    border-radius: 4px;
+    list-style: none;
+    text-align: center;
+    padding: 5px;}
+#nav ul li{display: inline;}
+#nav ul li a{background-color: gray;
+    text-decoration: none;
+    color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 3em;}
+#nav ul li a:hover{background-color:blanchedalmond;
+    color: black;
+    opacity: 0.8;}
+/*#nav ul li a:visited{background-color: pink;
+    color:black}*/
+#footer ul{
+    margin: 10px;
+    border-radius: 4px;
+    list-style: none;
+    text-align: center;
+    padding: 5px;}
+#footer ul li{display: inline;}
+#footer ul li a{background-color: gray;
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    padding: 2px 2em;}
+#footer ul li a:hover{background-color:pink;}
+#footer{position: fixed;
+    bottom:0%;
+    width:100%}
+#signup_box{display: table;
+    border: 1px dashed black;
+    padding: 15px}
+#row{display:table-row;
+    padding: 5px}
+#row label{display: table-cell;
+    padding: 5px}
 
-.navlink:hover {
-    
-}
 
 
 
