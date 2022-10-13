@@ -9,7 +9,7 @@ body{background-color:pink;
         margin: 10px;
         border-radius: 4px;}
     
-    .main{background-color:blanchedalmond;
+    #main{background-color:blanchedalmond;
         padding:20px;
         margin-top:10px;
         margin-bottom:10px;
@@ -116,6 +116,7 @@ p{font-size: 125%;}
     padding: 5px}
 #row label{display: table-cell;
     padding: 5px}
+    
 
 
 
